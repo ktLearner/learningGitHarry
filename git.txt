@@ -1,0 +1,16 @@
+<> -> file/branch name
+git init
+git status
+touch <> -> adds empty file
+git add -A
+git commit -m"message"
+git checkout  ->match with last commit
+git log  -> shows all commits
+git log -p -(no.of commits u want to see)
+git commit -a(->this skips staging area and directly commits) -m"message"
+ls ->shows all files in the folder
+git rm <>-> removes the file 
+git rm -cashed <> -> removes from staging area
+git branch <> -> new branch
+git branch -> shows all branches with curr branch in green
+git checkout <> ->to switch to <> branch
